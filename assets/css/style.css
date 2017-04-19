@@ -1,0 +1,132 @@
+* {
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:  #999999;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	margin: 0 0 5em;
+	background-image: url("pixel_weave/pixel_weave.png");
+}
+
+
+header, footer {
+  flex: none; /* 2 */
+}
+
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	color:  #4aaaa5;
+}
+
+.text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#gitHub, #linkedIn, #stackOverflow {
+	width: 15%;
+	padding: 10	px;
+	float: left;
+	margin: 1em;
+}
+
+.content {
+	margin-top: 3em;
+	margin-bottom: 2em;
+	flex: 1;
+}
+
+
+#sidebar {
+	width: 25%;
+	margin-left: 10%;
+	float: left;
+}
+
+#copyright {
+	text-align: center;
+	margin-top: 3em;
+	color: #fff;
+	font-size: 50%;
+}
+
+#form {
+	margin-bottom: 
+}
+
+
+.button {
+	background-color: #4aaaa5; /* aqua */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+input, textarea {
+	border-color: #D3D3D3;
+}
+
+.projects {
+	width: 40%;
+	height: 20%;
+	margin: 10px 30px -30px 10px;
+	float: left;
+}
+
+.projectlinks {
+	width: 100%;
+	position: relative;
+    left: 0px;
+    top: -80px;
+    z-index: -1;
+}
+
+.labels {
+  color: white;
+  text-align: center;
+  background-color: #4aaaa5;
+  width: 100%;
+  height: 2em;
+  padding-top: 1em;
+}
+
+.footer {
+	background-color: #666666;
+	height: 5em;
+	float: right;
+	width: 100%;
+	border-top: 6px solid #4aaaa5;
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+}
+
+
+
+
+
